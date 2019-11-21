@@ -674,7 +674,7 @@ header {
       max-width: 100%; } }
 
 @media (max-width: 900px) {
-  .slider .slick-btn {
+  .slider button.slick-btn {
     display: none; }
   .services .services__top {
     display: block; }
