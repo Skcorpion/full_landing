@@ -675,7 +675,8 @@ header {
 
 @media (max-width: 900px) {
   .slider button.slick-btn {
-    display: none; }
+    display: none;
+    background-color: green; }
   .services .services__top {
     display: block; }
     .services .services__top .services__title-box {
