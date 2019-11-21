@@ -675,7 +675,7 @@ header {
 
 @media (max-width: 900px) {
   .slider .slick-btn {
-    display: none; }
+    display: none !important; }
   .services .services__top {
     display: block; }
     .services .services__top .services__title-box {
@@ -755,8 +755,8 @@ header {
     max-width: 100%; } }
 
 @media (min-width: 700px) {
-  .menu ul {
-    display: block !important; } }
+  .header .header__content .header__content-inner .menu ul {
+    display: block; } }
 
 @media (max-width: 600px) {
   .services .services__items .services__item {

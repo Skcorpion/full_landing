@@ -59,7 +59,7 @@
 
 @media (max-width: 900px) {
   .slider .slick-btn {
-    display: none;
+    display: none !important;
   }
 
   .services .services__top {
@@ -207,8 +207,8 @@
 }
 
 @media (min-width: 700px) {
-  .menu ul {
-    display: block !important;
+  .header .header__content .header__content-inner .menu ul {
+    display: block;
   }
 }
 
